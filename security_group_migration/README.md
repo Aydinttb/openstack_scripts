@@ -26,13 +26,17 @@ This script helps you export all security groups from a project and import them 
   ```bash
   bash export-secG.sh 
   ```
-
-4. enter workinkg directory make directory for this project security groups 
-5. enter source project for export security groups
+4. Prepare working directory
+Create a directory for the exported security groups.
+5. Enter source project
+Provide the source project name when prompted.
 6. ⚠️ Change to working directory
-7. exute import script after change dir
+Important: You must execute the import script from this working directory where your exported security groups are stored.
+7. exute import script 
 ```bash 
 bash ../import-secG.sh` 
 ```
 ---
-### done
+Completion
+
+✅ Security groups will be successfully migrated after these steps.
