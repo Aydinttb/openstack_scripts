@@ -2,7 +2,7 @@ echo "please enter working directory"
 read -r working_directory
 working_directory=$working_directory
 mkdir -p ./$working_directory/
-#cd ./$working_directory/
+
 
 echo "please enter source project ID "
 read -r src_project_id
