@@ -1,3 +1,6 @@
+#!/usr/bin/bash
+###################################################################
+
 echo "please enter destination project ID "
 read -r dst_project_id
 secGProjectID=$dst_project_id
