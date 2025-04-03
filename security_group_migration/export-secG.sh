@@ -1,3 +1,6 @@
+#!/bin/bash
+###################################################################
+
 echo "please enter working directory"
 read -r working_directory
 working_directory=$working_directory
