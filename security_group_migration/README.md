@@ -33,6 +33,7 @@ Provide the source project name when prompted.
 6. ⚠️ Change to working directory
 
 Important: You must execute the import script from this working directory where your exported security groups are stored.
+
 7. exute import script 
 ```bash 
 sh ../import-secG.sh
