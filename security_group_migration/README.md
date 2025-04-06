@@ -19,7 +19,7 @@ This script helps you export all security groups from a project and import them 
 
 2. Change to the script directory
   ```bash
-  cd security_group_migration
+  cd ./openstack_scripts/security_group_migration
   ```
 
 3. Run the export script:
@@ -31,6 +31,7 @@ Create a directory for the exported security groups.
 5. Enter source project
 Provide the source project name when prompted.
 6. ⚠️ Change to working directory
+
 Important: You must execute the import script from this working directory where your exported security groups are stored.
 7. exute import script 
 ```bash 
