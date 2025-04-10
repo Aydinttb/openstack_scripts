@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # OpenStack Network IP Analyzer
 # Description: Finds available IP addresses in an OpenStack network by comparing allocation pools with used IPs
-# Usage: ./netip_analyzer.sh
+# Usage: . netip_analyzer.sh
+
 set -euo pipefail # Strict error handling
 
 read -p "Please enter the OpenStack Network ID: " network_id
